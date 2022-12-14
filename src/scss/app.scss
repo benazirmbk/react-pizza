@@ -23,6 +23,21 @@ body {
 .content {
   padding: 40px 0;
 
+  &__error-info{
+    margin: 100px auto;
+    width: 580px;
+    text-align: center;
+
+    h2{
+      font-weight: 700;
+      font-size: 32px;
+margin-bottom: 10px;
+    }
+    p{
+      font-size: 20px;
+    }
+  }
+
   &__title {
    
     font-weight: 800;
@@ -335,12 +350,13 @@ display: block;
   }
 
   &--empty {
-    margin: 0 auto;
+    margin: 80px auto;
     width: 560px;
     text-align: center;
 
     h2 {
-      font-size: 32px;
+      font-weight: 600;
+      font-size: 36px;
       margin-bottom: 10px;
     }
 
